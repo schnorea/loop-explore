@@ -221,7 +221,7 @@ This tool was designed for HPC optimization analysis. Contributions are welcome 
 
 ## License
 
-[Add your license information here]
+MIT
 
 ## Future Enhancements
 
