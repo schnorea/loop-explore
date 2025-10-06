@@ -453,7 +453,7 @@ class LoopAnalyzer:
     def _analyze_function_call(self, cursor: Cursor, loop_info: Dict[str, Any], location: Dict) -> None:
         """Analyze function calls."""
         try:
-            function_name = cursor.spelling or "unknown_function"
+            function_name = self._extract_function_name(cursor)
             
             # Extract arguments
             arguments = []
@@ -486,6 +486,75 @@ class LoopAnalyzer:
             
         except Exception as e:
             self.logger.debug(f"Error analyzing function call: {e}")
+    
+    def _extract_function_name(self, cursor: Cursor) -> str:
+        """Extract function name from call expression, handling C++ method calls."""
+        try:
+            # Try to get the full qualified name from source text first
+            # This is most reliable for qualified names like Class::method
+            full_source = self.ast_parser.get_source_text(cursor).strip()
+            if full_source and '(' in full_source:
+                # Extract everything before the first '('
+                func_part = full_source.split('(')[0].strip()
+                if func_part:
+                    # Return the full qualified name if it contains ::
+                    if '::' in func_part:
+                        return func_part
+                    # For simple function calls, continue to child analysis
+                    # to get more accurate names from AST
+            
+            # For C++ method calls, examine the children
+            children = list(cursor.get_children())
+            if not children:
+                # Fallback to spelling if no children
+                return cursor.spelling or "unknown_function"
+            
+            first_child = children[0]
+            
+            # Handle different types of function calls
+            if first_child.kind == CursorKind.MEMBER_REF_EXPR:
+                # Method call: object.method() or object->method()
+                method_name = first_child.spelling
+                if method_name:
+                    return method_name
+                    
+            elif first_child.kind == CursorKind.DECL_REF_EXPR:
+                # Simple function call: function()
+                func_name = first_child.spelling
+                if func_name:
+                    return func_name
+                    
+            elif first_child.kind in [CursorKind.UNEXPOSED_EXPR, CursorKind.CALL_EXPR]:
+                # Nested or complex expression, try to get source text
+                source_text = self.ast_parser.get_source_text(first_child).strip()
+                if source_text:
+                    # Extract function name from source text
+                    if '(' in source_text:
+                        source_text = source_text.split('(')[0].strip()
+                    return source_text
+                    
+            elif first_child.kind == CursorKind.OVERLOADED_DECL_REF:
+                # Overloaded function reference
+                return first_child.spelling or "overloaded_function"
+            
+            # Final fallback: use the source text we extracted earlier
+            if full_source and '(' in full_source:
+                func_part = full_source.split('(')[0].strip()
+                if func_part:
+                    # For method calls with . or ->, extract just the method name
+                    if '.' in func_part and '::' not in func_part:
+                        return func_part.split('.')[-1]
+                    elif '->' in func_part and '::' not in func_part:
+                        return func_part.split('->')[-1]
+                    else:
+                        return func_part
+            
+            # Final fallback
+            return cursor.spelling or "unknown_function"
+            
+        except Exception as e:
+            self.logger.debug(f"Error extracting function name: {e}")
+            return "unknown_function"
     
     def _analyze_memory_access(self, cursor: Cursor, loop_info: Dict[str, Any], location: Dict) -> None:
         """Analyze memory access patterns."""
