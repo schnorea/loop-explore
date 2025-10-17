@@ -1,0 +1,453 @@
+file_name,file_path,function_name,loop_index,loop_type,start_line,end_line,has_bounds,initialization,condition,increment,estimated_iterations
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,0,for_loop,162,179,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,1,for_loop,183,213,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,2,for_loop,199,206,True,int j=0;,j<4,j++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,3,for_loop,217,246,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,4,for_loop,233,240,True,int j=0;,j<4,j++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,5,for_loop,250,267,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,get_vertices,6,for_loop,259,266,True,int j=0;,j<4,j++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,shade_fraction_1x,0,for_loop,744,748,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,shade_fraction_1x,1,for_loop,777,780,True,int i=0;,i<3,i++,unknown
+PVWattsSSC.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PVWattsSSC.cc,shade_fraction_1x,2,for_loop,800,808,True,int i=0;,i<3,i++,unknown
+SystemReports.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SystemReports.cc,ReportSystemEnergyUse,10,for_loop,3269,3342,True,Idx = 1,Idx <= 2,++Idx,unknown
+HeatBalanceSurfaceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceSurfaceManager.cc,UpdateThermalHistories,3,for_loop,4197,4207,True,SideNum = 1,SideNum <= 2,++SideNum,unknown
+HeatBalanceSurfaceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceSurfaceManager.cc,UpdateThermalHistories,6,for_loop,4262,4276,True,SideNum = 1,SideNum <= 2,++SideNum,unknown
+HeatBalanceSurfaceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceSurfaceManager.cc,CalcExteriorVentedCavity,0,for_loop,6494,6498,True,iter = 1,iter <= 3,++iter,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,AnisoSkyViewFactors,0,for_loop,1513,1516,True,EpsilonBin = 1,EpsilonBin <= 8,++EpsilonBin,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,CalcPerSolarBeam,1,for_loop,3677,3681,True,iHour = 1,iHour <= 24,++iHour,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,CalcPerSolarBeam,3,for_loop,3688,3692,True,iHour = 1,iHour <= 24,++iHour,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,CalcPerSolarBeam,5,for_loop,3698,3706,True,iHour = 1,iHour <= 24,++iHour,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,SHDRVL,1,for_loop,7599,7602,True,N = 1,N <= 3,++N,unknown
+SolarShading.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarShading.cc,CalcBeamSolarOnWinRevealSurface,1,for_loop,9284,9539,True,HorVertReveal = 1,HorVertReveal <= 2,++HorVertReveal,unknown
+ChillerElectricEIR.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ChillerElectricEIR.cc,GetElectricEIRChillerInput,1,for_loop,699,703,True,CurveCheck = 0,CurveCheck <= 10,++CurveCheck,unknown
+ChillerElectricEIR.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ChillerElectricEIR.cc,GetElectricEIRChillerInput,2,for_loop,711,713,True,CurveValPtr = 1,CurveValPtr <= 11,++CurveValPtr,unknown
+ChillerReformulatedEIR.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ChillerReformulatedEIR.cc,SizeElecReformEIRChiller,0,for_loop,1285,1298,True,CurveCheck = 0,CurveCheck <= 10,++CurveCheck,unknown
+ChillerReformulatedEIR.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ChillerReformulatedEIR.cc,SizeElecReformEIRChiller,1,for_loop,1309,1311,True,CurveValPtr = 1,CurveValPtr <= 11,++CurveValPtr,unknown
+ChillerReformulatedEIR.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ChillerReformulatedEIR.cc,SizeElecReformEIRChiller,2,for_loop,1315,1317,True,CurveValPtr = 1,CurveValPtr <= 11,++CurveValPtr,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,GetAirflowNetworkInput,30,for_loop,2227,2243,True,j = 1,j <= 5,++j,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,GetAirflowNetworkInput,36,for_loop,2284,2287,True,i = 0,i < 11,++i,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,0,for_loop,4949,4954,True,FacadeNum = 1,FacadeNum <= 4,++FacadeNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,3,for_loop,4990,4999,True,FacadeNum = 2,FacadeNum <= 4,++FacadeNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,5,for_loop,5034,5093,True,FacadeNum = 1,FacadeNum <= 5,++FacadeNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,6,for_loop,5045,5089,True,WindDirNum = 1,WindDirNum <= 12,++WindDirNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,7,for_loop,5103,5105,True,FacadeNum = 0,FacadeNum < 4,++FacadeNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,8,for_loop,5108,5129,True,FacadeNum = 1,FacadeNum <= 4,++FacadeNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,9,for_loop,5118,5128,True,WindDirNum = 1,WindDirNum <= 36,++WindDirNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,10,for_loop,5141,5151,True,WindDirNum = 1,WindDirNum <= 12,++WindDirNum,unknown
+AirflowNetworkBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/AirflowNetworkBalanceManager.cc,CalcWindPressureCoeffs,11,for_loop,5156,5159,True,FacadeNum = 1,FacadeNum <=4,++FacadeNum,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,GetMaterialData,9,for_loop,2193,2197,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,GetMaterialData,10,for_loop,2203,2207,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,GetMaterialData,12,for_loop,2294,2298,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,GetMaterialData,13,for_loop,2318,2322,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,GetMaterialData,17,for_loop,2407,2411,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,0,for_loop,5674,5678,True,LineNum = 2,LineNum <= 5,++LineNum,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,2,for_loop,5742,5745,True,LineNum = 1,LineNum <= 11,++LineNum,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,13,for_loop,6028,6030,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,14,for_loop,6033,6037,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,19,for_loop,6155,6157,True,ILine = 1,ILine <= 5,++ILine,unknown
+HeatBalanceManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceManager.cc,SearchWindow5DataFile,21,for_loop,6228,6235,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+TARCOGOutput.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGOutput.cc,WriteTARCOGInputFile,2,for_loop,1313,1315,True,j = 2,j <= 3,++j,unknown
+TARCOGOutput.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGOutput.cc,WriteTARCOGInputFile,3,for_loop,1319,1321,True,j = 2,j <= 3,++j,unknown
+TARCOGOutput.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGOutput.cc,WriteTARCOGInputFile,4,for_loop,1325,1327,True,j = 2,j <= 3,++j,unknown
+DXCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DXCoils.cc,CalcTwoSpeedDXCoilStandardRating,0,for_loop,11785,11833,True,Iter = 1,Iter <= 4,++Iter,unknown
+DXCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DXCoils.cc,CalcTwoSpeedDXCoilStandardRating,1,for_loop,11886,12027,True,PartLoadTestPoint = 1,PartLoadTestPoint <= 3,++PartLoadTestPoint,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ResetWeekDaysByMonth,14,for_loop,1625,1631,True,Loop = 4,Loop <= 12,++Loop,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,2,for_loop,2821,2828,True,Item = 1,Item <= 23 * NumIntervalsPerHour,++Item,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,4,for_loop,2878,3174,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,6,for_loop,3185,3200,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,7,for_loop,3220,3289,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,9,for_loop,3299,3303,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ReadEPlusWeatherForDay,11,for_loop,3307,3311,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,InterpretWeatherDataLine,0,for_loop,3547,3550,True,Count = 1,Count <= 21,++Count,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,InterpretWeatherDataLine,3,for_loop,3657,3659,True,Pos = 0,Pos < 9,++Pos,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,SetUpDesignDay,0,for_loop,4026,4169,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,SetUpDesignDay,2,for_loop,4174,4184,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,SetUpDesignDay,3,for_loop,4196,4200,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,SetUpDesignDay,5,for_loop,4205,4209,True,Hour = 1,Hour <= 24,++Hour,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetDesignDayData,1,for_loop,6586,6593,True,HrLoop = 1,HrLoop <= 24,++HrLoop,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetDesignDayData,3,for_loop,6781,6788,True,HrLoop = 1,HrLoop <= 24,++HrLoop,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetGroundReflectances,0,for_loop,7324,7326,True,I = 1,I <= 12,++I,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetSnowGroundRefModifiers,0,for_loop,7389,7391,True,I = 1,I <= 12,++I,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetSnowGroundRefModifiers,1,for_loop,7395,7397,True,I = 1,I <= 12,++I,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetSTM,0,for_loop,7837,7840,True,i = 1,i <= 12,++i,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,GetSTM,1,for_loop,7841,7844,True,i = 1,i <= 12,++i,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ProcessEPWHeader,5,for_loop,8218,8225,True,Count = 1,Count <= 4,++Count,unknown
+WeatherManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WeatherManager.cc,ProcessEPWHeader,6,for_loop,8228,8243,True,Count = 1,Count <= 12,++Count,unknown
+General.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/General.cc,InvJulianDay,0,for_loop,2369,2381,True,WMonth = 1,WMonth <= 12,++WMonth,unknown
+DataHeatBalance.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DataHeatBalance.cc,CheckAndSetConstructionProperties,5,for_loop,1333,1335,True,IGas = 1,IGas <= 5,++IGas,unknown
+HeatBalFiniteDiffManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalFiniteDiffManager.cc,InitialInitHeatBalFiniteDiff,0,for_loop,654,657,True,index = 1,index <= 20,++index,unknown
+HVACCooledBeam.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HVACCooledBeam.cc,SizeCoolBeam,0,for_loop,731,748,True,Iter = 1,Iter <= 100,++Iter,unknown
+HVACCooledBeam.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HVACCooledBeam.cc,CalcCoolBeam,0,for_loop,1000,1040,True,Iter = 1,Iter <= 200,++Iter,unknown
+PlantManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/Plant/PlantManager.cc,ManagePlantLoops,3,for_loop,248,253,True,LoopSideNum = 1,LoopSideNum <= 2,++LoopSideNum,unknown
+PlantManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/Plant/PlantManager.cc,GetPlantLoopData,1,for_loop,544,550,True,PressSimLoop = 1,PressSimLoop <= 4,++PressSimLoop,unknown
+PlantManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/Plant/PlantManager.cc,InitializeLoops,1,for_loop,2074,2107,True,passNum = 1,passNum <= 4,++passNum,unknown
+HVACSizingSimulationManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HVACSizingSimulationManager.cc,ManageHVACSizingSimulation,3,for_loop,343,389,True,HourOfDay = 1,HourOfDay <= 24,++HourOfDay,unknown
+MicroCHPElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/MicroCHPElectricGenerator.cc,CalcMicroCHPNoNormalizeGeneratorModel,0,for_loop,884,891,True,i = 1,i <= 20,++i,unknown
+MicroCHPElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/MicroCHPElectricGenerator.cc,CalcMicroCHPNoNormalizeGeneratorModel,1,for_loop,995,1002,True,i = 1,i <= 20,++i,unknown
+MicroCHPElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/MicroCHPElectricGenerator.cc,CalcMicroCHPNoNormalizeGeneratorModel,2,for_loop,1037,1097,True,i = 1,i <= 20,++i,unknown
+UFADManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/UFADManager.cc,CalcUCSDUI,1,for_loop,1147,1224,True,Ctd = 1,Ctd <= 4,++Ctd,unknown
+UFADManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/UFADManager.cc,CalcUCSDUI,2,for_loop,1247,1283,True,Ctd = 1,Ctd <= 3,++Ctd,unknown
+UFADManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/UFADManager.cc,CalcUCSDUE,1,for_loop,1594,1680,True,Ctd = 1,Ctd <= 4,++Ctd,unknown
+UFADManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/UFADManager.cc,CalcUCSDUE,2,for_loop,1706,1742,True,Ctd = 1,Ctd <= 3,++Ctd,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,4,for_loop,1151,1155,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,7,for_loop,1268,1272,True,i = 2,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,10,for_loop,1334,1337,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,11,for_loop,1343,1346,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,12,for_loop,1376,1379,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,therm1d,13,for_loop,1390,1393,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,0,for_loop,2771,2787,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,2,for_loop,2799,2815,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,4,for_loop,2826,2838,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,5,for_loop,2843,2845,True,i = 2,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,6,for_loop,2853,2860,True,i = 1,i <= 2 * nlayer,++i,unknown
+ThermalISO15099Calc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalISO15099Calc.cc,storeIterationResults,7,for_loop,2865,2867,True,i = 2,i <= 2 * nlayer,++i,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetSurfaceData,4,for_loop,1096,1100,True,n = 1,n <= 3,++n,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetSurfaceData,8,for_loop,1226,1255,True,Loop = 1,Loop <= 3,++Loop,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetSurfaceData,13,for_loop,1290,1311,True,Loop = 1,Loop <= 3,++Loop,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetDetShdSurfaceData,0,for_loop,2328,2419,True,Item = 1,Item <= 2,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetRectDetShdSurfaceData,0,for_loop,2464,2517,True,Item = 1,Item <= 2,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetHTSurfaceData,0,for_loop,2674,2992,True,Item = 1,Item <= 4,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetRectSurfaces,0,for_loop,3045,3260,True,Item = 1,Item <= 10,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,MakeRectangularVertices,1,for_loop,3401,3405,True,n = 1,n <= 3,++n,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetRectSubSurfaces,0,for_loop,3855,4087,True,Item = 1,Item <= 6,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,MakeRelativeRectangularVertices,1,for_loop,4561,4565,True,n = 1,n <= 3,++n,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetSimpleShdSurfaceData,0,for_loop,4845,5127,True,Item = 1,Item <= 4,++Item,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,GetVertices,10,for_loop,6697,6701,True,n = 1,n <= 3,++n,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,MakeMirrorSurface,1,for_loop,6923,6927,True,n = 1,n <= 3,++n,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,updateZonePolygonsForMissingColinearPoints,1,for_loop,8942,8973,True,int iterationLimiter = 0;,iterationLimiter < 20,++iterationLimiter,unknown
+SurfaceGeometry.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SurfaceGeometry.cc,CreateStormWindowConstructions,1,for_loop,10175,10344,True,loop = 1,loop <= 2,++loop,unknown
+TARCOGCommon.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGCommon.cc,matrixQBalance,0,for_loop,232,237,True,i = 1,i <= 4 * nlayer,++i,unknown
+TARCOGCommon.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGCommon.cc,matrixQBalance,1,for_loop,234,236,True,j = 1,j <= 4 * nlayer,++j,unknown
+ZoneTempPredictorCorrector.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneTempPredictorCorrector.cc,GetZoneAirSetPoints,13,for_loop,858,893,True,ControlTypeNum = 1,ControlTypeNum <= 4,++ControlTypeNum,unknown
+ZoneTempPredictorCorrector.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneTempPredictorCorrector.cc,GetZoneAirSetPoints,30,for_loop,1456,1494,True,ControlTypeNum = 1,ControlTypeNum <= 12,++ControlTypeNum,unknown
+ZoneTempPredictorCorrector.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneTempPredictorCorrector.cc,CalculateMonthlyRunningAverageDryBulb,0,for_loop,2138,2140,True,i = 1,i <= 9,++i,unknown
+ZoneTempPredictorCorrector.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneTempPredictorCorrector.cc,CalculateMonthlyRunningAverageDryBulb,2,for_loop,2143,2152,True,j = 1,j <= 24,++j,unknown
+ZoneTempPredictorCorrector.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneTempPredictorCorrector.cc,CalculateMonthlyRunningAverageDryBulb,3,for_loop,2145,2148,True,ind = 1,ind <= 6,++ind,unknown
+CrossVentMgr.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CrossVentMgr.cc,CalcUCSDCV,1,for_loop,905,912,True,Ctd = 1,Ctd <= 4,++Ctd,unknown
+CrossVentMgr.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CrossVentMgr.cc,CalcUCSDCV,2,for_loop,932,950,True,Ctd = 1,Ctd <= 3,++Ctd,unknown
+CrossVentMgr.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CrossVentMgr.cc,CalcUCSDCV,3,for_loop,964,982,True,Ctd = 1,Ctd <= 3,++Ctd,unknown
+TARCOGMain.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGMain.cc,TARCOG90,3,for_loop,733,735,True,i = 1,i <= 2 * nlayer,++i,unknown
+TARCOGMain.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/TARCOGMain.cc,TARCOG90,4,for_loop,759,761,True,i = 1,i <= 2 * nlayer,++i,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,2,for_loop,5928,6012,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,5,for_loop,6031,6083,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,8,for_loop,6102,6114,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,11,for_loop,6131,6143,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,14,for_loop,6156,6168,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+OutputProcessor.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputProcessor.cc,UpdateDataandReport,17,for_loop,6181,6193,True,IndexType = 1,IndexType <= 2,++IndexType,unknown
+EconomicTariff.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicTariff.cc,getMaxAndSum,0,for_loop,4554,4560,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicTariff.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicTariff.cc,ReportEconomicVariable,3,for_loop,4654,4661,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicTariff.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicTariff.cc,GetMonthlyCostForResource,1,for_loop,4937,4939,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+PlantCondLoopOperation.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCondLoopOperation.cc,TurnOffLoopEquipment,0,for_loop,3014,3024,True,LoopSideNum = 1,LoopSideNum <= 2,++LoopSideNum,unknown
+PlantCondLoopOperation.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCondLoopOperation.cc,SetupPlantEMSActuators,1,for_loop,3122,3143,True,LoopSideNum = 1,LoopSideNum <= 2,++LoopSideNum,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,ManageSizing,3,for_loop,369,432,True,HourOfDay = 1,HourOfDay <= 24,++HourOfDay,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,ManageSizing,7,for_loop,560,596,True,HourOfDay = 1,HourOfDay <= 24,++HourOfDay,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,ManageSystemVentilationAdjustments,7,for_loop,1216,1276,True,int coolHeatPass = 1;,coolHeatPass <= 2,++coolHeatPass,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,ManageSystemVentilationAdjustments,12,for_loop,1367,1400,True,int coolHeatPass = 1;,coolHeatPass <= 2,++coolHeatPass,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,ManageSystemVentilationAdjustments,14,for_loop,1416,1497,True,int coolHeatPass = 1;,coolHeatPass <= 2,++coolHeatPass,unknown
+SizingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SizingManager.cc,DetermineSystemPopulationDiversity,6,for_loop,1578,1628,True,int hrOfDay = 1;,hrOfDay <= 24,++hrOfDay,unknown
+PlantCentralGSHP.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCentralGSHP.cc,GetChillerHeaterInput,1,for_loop,1105,1109,True,CurveCheck = 0,CurveCheck <= 10,++CurveCheck,unknown
+PlantCentralGSHP.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCentralGSHP.cc,GetChillerHeaterInput,2,for_loop,1116,1119,True,CurveValPtr = 1,CurveValPtr <= 11,++CurveValPtr,unknown
+PlantCentralGSHP.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCentralGSHP.cc,GetChillerHeaterInput,3,for_loop,1156,1160,True,CurveCheck = 0,CurveCheck <= 10,++CurveCheck,unknown
+PlantCentralGSHP.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantCentralGSHP.cc,GetChillerHeaterInput,4,for_loop,1167,1169,True,CurveValPtr = 1,CurveValPtr <= 11,++CurveValPtr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,5,for_loop,668,672,True,Count = 1,Count <= 24,++Count,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,9,for_loop,764,766,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,10,for_loop,777,786,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,13,for_loop,835,843,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,15,for_loop,845,851,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,17,for_loop,863,872,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,21,for_loop,957,965,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,23,for_loop,967,973,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,25,for_loop,985,994,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,43,for_loop,1341,1347,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,45,for_loop,1349,1358,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,54,for_loop,1703,1709,True,jHour = 1,jHour <= 24,++jHour,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,56,for_loop,1711,1720,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,58,for_loop,1722,1730,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,60,for_loop,1732,1738,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,65,for_loop,1876,1878,True,Hr = 1,Hr <= 366,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,68,for_loop,1924,1926,True,Hr = 1,Hr <= 366,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessScheduleInput,71,for_loop,1973,1975,True,Hr = 1,Hr <= 366,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,1,for_loop,2139,2148,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,7,for_loop,2223,2227,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,9,for_loop,2234,2237,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,10,for_loop,2244,2249,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,20,for_loop,2297,2309,True,DT = 2,DT <= 6,++DT,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,21,for_loop,2302,2304,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,22,for_loop,2315,2317,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,24,for_loop,2327,2329,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,25,for_loop,2343,2355,True,DT = 2,DT <= 6,++DT,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,26,for_loop,2348,2350,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,27,for_loop,2361,2363,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ReportScheduleDetails,29,for_loop,2373,2375,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,GetScheduleIndex,0,for_loop,2710,2717,True,WeekCtr = 1,WeekCtr <= 366,++WeekCtr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ExternalInterfaceSetSchedule,0,for_loop,3000,3004,True,Hr = 1,Hr <= 24,++Hr,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ProcessIntervalFields,4,for_loop,3177,3181,True,Min = 1,Min <= 60,++Min,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,CheckScheduleValueMinMax,1,for_loop,3939,3945,True,Loop = 2,Loop <= 366,++Loop,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,CheckScheduleValue,0,for_loop,4106,4114,True,Loop = 1,Loop <= 366,++Loop,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,HasFractionalScheduleValue,1,for_loop,4367,4374,True,Hour = 1,Hour <= 24,++Hour,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,HasFractionalScheduleValue,3,for_loop,4378,4391,True,Loop = 2,Loop <= 366,++Loop,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,HasFractionalScheduleValue,5,for_loop,4381,4388,True,Hour = 1,Hour <= 24,++Hour,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,GetScheduleMinValue,1,for_loop,4463,4469,True,Loop = 2,Loop <= 366,++Loop,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,GetScheduleMaxValue,1,for_loop,4549,4555,True,Loop = 2,Loop <= 366,++Loop,unknown
+ScheduleManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ScheduleManager.cc,ScheduleHoursGT1perc,1,for_loop,4939,4945,True,int hrOfDay = 1;,hrOfDay <= 24,++hrOfDay,unknown
+OutputReports.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReports.cc,DXFOut,2,for_loop,503,516,True,vert = 1,vert <= 4,++vert,unknown
+OutputReports.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReports.cc,DXFOutLines,2,for_loop,991,1004,True,vert = 1,vert <= 4,++vert,unknown
+OutputReports.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReports.cc,DXFOutWireFrame,2,for_loop,1417,1430,True,vert = 1,vert <= 4,++vert,unknown
+WaterThermalTanks.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterThermalTanks.cc,CalcHeatPumpWaterHeater,0,for_loop,8210,8347,True,loopIter = 1,loopIter <= 4,++loopIter,unknown
+WaterThermalTanks.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterThermalTanks.cc,ConvergeSingleSpeedHPWHCoilAndTank,0,for_loop,8609,8622,True,int i = 1;,i <= 10,++i,unknown
+SimAirServingZones.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimAirServingZones.cc,GetAirPathData,8,for_loop,862,871,True,OutBranchNum = 1,OutBranchNum <= 3,++OutBranchNum,unknown
+SimAirServingZones.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimAirServingZones.cc,SimAirLoops,1,for_loop,2427,2450,True,AirLoopPass = 1,AirLoopPass <= 2,++AirLoopPass,unknown
+SimAirServingZones.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimAirServingZones.cc,UpdateSysSizing,60,for_loop,6451,6474,True,HourCounter = 1,HourCounter <= 24,++HourCounter,unknown
+ThermalChimney.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalChimney.cc,CalcThermalChimney,7,for_loop,607,651,True,IterationLoop = 1,IterationLoop <= 10,++IterationLoop,unknown
+ZoneEquipmentManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ZoneEquipmentManager.cc,UpdateZoneSizing,16,for_loop,2541,2569,True,HourCounter = 1,HourCounter <= 24,++HourCounter,unknown
+WindTurbine.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindTurbine.cc,InitWindTurbine,2,for_loop,646,668,True,mon = 1,mon <= 12,++mon,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortPierce,1,for_loop,951,1099,True,IterMin = 1,IterMin <= 60,++IterMin,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,RKG,1,for_loop,1643,1650,True,J = 1,J <= 2,++J,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,1,for_loop,2478,2480,True,i = 1,i <= 7,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,2,for_loop,2486,2488,True,i = 1,i <= 12,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,3,for_loop,2504,2506,True,i = 1,i <= 8,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,5,for_loop,2514,2527,True,i = 1,i <= 30,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,6,for_loop,2516,2525,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,7,for_loop,2518,2521,True,ind = 1,ind <= 6,++ind,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,9,for_loop,2535,2544,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,10,for_loop,2537,2540,True,ind = 1,ind <= 6,++ind,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,12,for_loop,2550,2563,True,i = 1,i <= 30 - calcEndDay,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,13,for_loop,2552,2561,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,14,for_loop,2554,2557,True,ind = 1,ind <= 6,++ind,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,15,for_loop,2580,2582,True,i = 1,i <= 29,i++,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveASH55,16,for_loop,2584,2586,True,i = 1,i <= 29,i++,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,0,for_loop,2727,2729,True,i = 1,i <= 9,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,2,for_loop,2738,2751,True,i = 1,i <= 7,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,3,for_loop,2740,2749,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,4,for_loop,2742,2745,True,ind = 1,ind <= 6,++ind,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,6,for_loop,2759,2768,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,7,for_loop,2761,2764,True,ind = 1,ind <= 6,++ind,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,9,for_loop,2774,2787,True,i = 1,i <= 7 - calcEndDay,++i,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,10,for_loop,2776,2785,True,j = 1,j <= 24,++j,unknown
+ThermalComfort.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ThermalComfort.cc,CalcThermalComfortAdaptiveCEN15251,11,for_loop,2778,2781,True,ind = 1,ind <= 6,++ind,unknown
+RefrigeratedCase.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/RefrigeratedCase.cc,GetRefrigerationInput,1,for_loop,1297,1308,True,HRNum = 1,HRNum <= 24,++HRNum,unknown
+RefrigeratedCase.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/RefrigeratedCase.cc,CalculateTransCompressors,2,for_loop,10128,10139,True,Iter = 1,Iter <= 15,++Iter,unknown
+RefrigeratedCase.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/RefrigeratedCase.cc,CalculateTransCompressors,3,for_loop,10152,10161,True,Iter = 1,Iter <= 15,++Iter,unknown
+RefrigeratedCase.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/RefrigeratedCase.cc,CalculateTransCompressors,4,for_loop,10179,10188,True,Iter = 1,Iter <= 15,++Iter,unknown
+RefrigeratedCase.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/RefrigeratedCase.cc,CalculateSecondary,3,for_loop,11596,11635,True,Iter = 1,Iter <= 10,++Iter,unknown
+ConvectionCoefficients.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConvectionCoefficients.cc,GetUserConvectionCoefficients,5,for_loop,1465,1659,True,Pass = 1,Pass <= 2,++Pass,unknown
+ConvectionCoefficients.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConvectionCoefficients.cc,GetUserConvectionCoefficients,10,for_loop,1682,1859,True,Pass = 1,Pass <= 2,++Pass,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateGammas,4,for_loop,1751,1779,True,j = 1,j <= 3,++j,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateCTFs,1,for_loop,1878,1880,True,j = 1,j <= 3,++j,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateCTFs,9,for_loop,1985,1998,True,j = 1,j <= 3,++j,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateCTFs,11,for_loop,2000,2018,True,j = 1,j <= 3,++j,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateCTFs,16,for_loop,2074,2085,True,j = 1,j <= 3,++j,unknown
+ConductionTransferFunctionCalc.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/ConductionTransferFunctionCalc.cc,CalculateCTFs,18,for_loop,2090,2108,True,j = 1,j <= 3,++j,unknown
+FuelCellElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/FuelCellElectricGenerator.cc,CalcFuelCellGeneratorModel,0,for_loop,1175,1605,True,iter = 1,iter <= 20,++iter,unknown
+FuelCellElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/FuelCellElectricGenerator.cc,FigureProductGasesEnthalpy,0,for_loop,2340,2365,True,thisConstit = 1,thisConstit <= 5,++thisConstit,unknown
+FuelCellElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/FuelCellElectricGenerator.cc,FigurePowerConditioningLosses,0,for_loop,3058,3064,True,iter = 1,iter <= 20,++iter,unknown
+FuelCellElectricGenerator.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/FuelCellElectricGenerator.cc,CalcFuelCellGenHeatRecovery,1,for_loop,3464,3480,True,loop = 1,loop <= 5,++loop,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,1,for_loop,583,585,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,28,for_loop,1199,1206,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,33,for_loop,1264,1271,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,39,for_loop,1356,1366,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,40,for_loop,1401,1418,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,InitGlassOpticalCalculations,44,for_loop,1569,1573,True,CoefNum = 1,CoefNum <= 6,++CoefNum,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,W5InitGlassParameters,4,for_loop,1908,1910,True,IPhi = 1,IPhi <= 10,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowHeatBalance,0,for_loop,2448,2450,True,i = 1,i <= 2 * Construct( ConstrNum ).TotSolidLayers,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowHeatBalance,6,for_loop,2719,2723,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowHeatBalance,7,for_loop,2740,2744,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,SolveForWindowTemperatures,2,for_loop,3462,3464,True,i = 1,i <= 6,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,SolveForWindowTemperatures,3,for_loop,3580,3582,True,i = 1,i <= 8,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,0,for_loop,4187,4190,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,1,for_loop,4194,4197,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,2,for_loop,4200,4211,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,3,for_loop,4218,4221,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,4,for_loop,4246,4248,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeNaturalFlow,5,for_loop,4274,4285,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeForcedFlow,0,for_loop,4495,4498,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeForcedFlow,1,for_loop,4502,4505,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BetweenGlassShadeForcedFlow,2,for_loop,4520,4548,True,IGap = 1,IGap <= 2,++IGap,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,DiffuseAverage,0,for_loop,6182,6184,True,IPhi = 1,IPhi <= 9,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,DiffuseAverageProfAngGnd,0,for_loop,6239,6243,True,IPhi = 1,IPhi <= 18,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,DiffuseAverageProfAngSky,0,for_loop,6300,6304,True,IPhi = 19,IPhi <= 36,++IPhi,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcNominalWindowCond,4,for_loop,6946,6950,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowBlindProperties,1,for_loop,7766,7892,True,ISolVis = 1,ISolVis <= 2,++ISolVis,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowBlindProperties,3,for_loop,7835,7876,True,IProfAng = 1,IProfAng <= 37,++IProfAng,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,9,for_loop,8092,8100,True,j = 90 / Material( MatNum ).ScreenMapResolution + 1,j >= 1,--j,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,10,for_loop,8093,8099,True,i = 90 / Material( MatNum ).ScreenMapResolution + 1,i >= 1,--i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,11,for_loop,8105,8107,True,i = 90 / Material( MatNum ).ScreenMapResolution,i >= 2,--i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,12,for_loop,8110,8116,True,j = 1,j <= 90 / Material( MatNum ).ScreenMapResolution + 1,++j,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,13,for_loop,8112,8114,True,i = 90 / Material( MatNum ).ScreenMapResolution + 1,i >= 2,--i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,14,for_loop,8122,8124,True,i = 1,i <= 90 / Material( MatNum ).ScreenMapResolution,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,15,for_loop,8127,8133,True,j = 1,j <= 90 / Material( MatNum ).ScreenMapResolution + 1,++j,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,CalcWindowScreenProperties,16,for_loop,8129,8131,True,i = 1,i <= 90 / Material( MatNum ).ScreenMapResolution,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,0,for_loop,8263,8268,True,k = 3,k <= 5,k += 2,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,1,for_loop,8264,8267,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,2,for_loop,8270,8272,True,k = 1,k <= 4,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,3,for_loop,8290,8295,True,k = 3,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,4,for_loop,8292,8294,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,5,for_loop,8299,8305,True,k = 1,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,6,for_loop,8301,8304,True,m = 1,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,7,for_loop,8310,8325,True,IUpDown = 1,IUpDown <= 2,++IUpDown,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,8,for_loop,8311,8323,True,Iphis = 1,Iphis <= 10,++Iphis,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,9,for_loop,8348,8353,True,k = 3,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,10,for_loop,8350,8352,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,11,for_loop,8357,8363,True,k = 1,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,12,for_loop,8359,8362,True,m = 1,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,13,for_loop,8382,8387,True,k = 3,k <= 5,k += 2,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,14,for_loop,8383,8386,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,15,for_loop,8389,8391,True,k = 1,k <= 4,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,16,for_loop,8409,8414,True,k = 3,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,17,for_loop,8411,8413,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,18,for_loop,8417,8423,True,k = 1,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,19,for_loop,8419,8422,True,m = 1,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,20,for_loop,8448,8453,True,k = 3,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,21,for_loop,8450,8452,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,22,for_loop,8457,8463,True,k = 1,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsDiffuse,23,for_loop,8459,8462,True,m = 1,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,0,for_loop,8594,8687,True,i = 0,i <= 2,i += 2,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,1,for_loop,8633,8638,True,k = 3,k <= 5,k += 2,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,2,for_loop,8634,8637,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,3,for_loop,8640,8642,True,k = 1,k <= 4,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,4,for_loop,8665,8670,True,k = 3,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,5,for_loop,8667,8669,True,m = 3,m <= 4,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,6,for_loop,8673,8678,True,k = 1,k <= 6,++k,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,BlindOpticsBeam,7,for_loop,8675,8677,True,m = 3,m <= 6,++m,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,ViewFac,0,for_loop,8770,8772,True,i = 1,i <= 6,++i,unknown
+WindowManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowManager.cc,ViewFac,1,for_loop,8796,8801,True,i = 2,i <= 6,++i,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,InitWaterCoil,1,for_loop,1093,1274,True,Ipass = 1,Ipass <= 2,++Ipass,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcDetailFlatFinCoolingCoil,0,for_loop,2731,2734,True,CoefPointer = 1,CoefPointer <= 5,++CoefPointer,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcIBesselFunc,0,for_loop,4353,4360,True,LoopCount = 1,LoopCount <= 30,++LoopCount,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcIBesselFunc,2,for_loop,4377,4382,True,LoopCount = 1,LoopCount <= 1000,++LoopCount,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcKBesselFunc,0,for_loop,4474,4476,True,LoopCount = 2,LoopCount <= 12,++LoopCount,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcKBesselFunc,1,for_loop,4507,4512,True,LoopCount = 1,LoopCount <= 6,++LoopCount,unknown
+WaterCoils.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WaterCoils.cc,CalcKBesselFunc,2,for_loop,4525,4530,True,LoopCount = 2,LoopCount <= 8,++LoopCount,unknown
+Pumps.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/Pumps.cc,SizePump,0,for_loop,1746,1759,True,Side = 1,Side <= 2,++Side,unknown
+HeatBalanceHAMTManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/HeatBalanceHAMTManager.cc,GetHeatBalHAMTInput,6,for_loop,451,463,True,ii = 1,ii <= 100,++ii,unknown
+SolarReflectionManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarReflectionManager.cc,CalcBeamSolDiffuseReflFactors,0,for_loop,620,622,True,IHr = 1,IHr <= 24,++IHr,unknown
+SolarReflectionManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarReflectionManager.cc,CalcBeamSolSpecularReflFactors,0,for_loop,901,903,True,IHr = 1,IHr <= 24,++IHr,unknown
+SolarReflectionManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarReflectionManager.cc,CalcSkySolDiffuseReflFactors,1,for_loop,1178,1182,True,int ITheta = 1;,ITheta <= 2 * AzimAngStepsForSolReflCalc,++ITheta,unknown
+SolarReflectionManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SolarReflectionManager.cc,CalcSkySolDiffuseReflFactors,6,for_loop,1245,1270,True,int ITheta = 1;,ITheta <= 2 * AzimAngStepsForSolReflCalc,++ITheta,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,ExpressAsCashFlows,1,for_loop,1289,1292,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,ExpressAsCashFlows,6,for_loop,1364,1368,True,iLoop = 1,iLoop <= 10000,++iLoop,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,ExpressAsCashFlows,8,for_loop,1395,1397,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,ExpressAsCashFlows,13,for_loop,1419,1423,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,ExpressAsCashFlows,20,for_loop,1454,1459,True,jMonth = 1,jMonth <= 12,++jMonth,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,WriteTabularLifeCycleCostReport,20,for_loop,2335,2337,True,kMonth = 1,kMonth <= 12,++kMonth,unknown
+EconomicLifeCycleCost.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EconomicLifeCycleCost.cc,WriteTabularLifeCycleCostReport,23,for_loop,2342,2344,True,kMonth = 1,kMonth <= 12,++kMonth,unknown
+PlantUtilities.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantUtilities.cc,ScanPlantLoopsForObject,1,for_loop,2398,2437,True,LoopSideCtr = 1,LoopSideCtr <= 2,++LoopSideCtr,unknown
+PlantUtilities.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantUtilities.cc,ScanPlantLoopsForNodeNum,1,for_loop,2534,2560,True,LoopSideCtr = 1,LoopSideCtr <= 2,++LoopSideCtr,unknown
+PlantUtilities.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/PlantUtilities.cc,AnyPlantLoopSidesNeedSim,1,for_loop,2621,2626,True,LoopSideCtr = 1,LoopSideCtr <= 2,++LoopSideCtr,unknown
+EcoRoofManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EcoRoofManager.cc,CalcEcoRoof,0,for_loop,610,635,True,EcoLoop = 1,EcoLoop <= 3,++EcoLoop,unknown
+EcoRoofManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/EcoRoofManager.cc,UpdateSoilProps,0,for_loop,781,783,True,index1 = 1,index1 <= 20,++index1,unknown
+WindowEquivalentLayer.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowEquivalentLayer.cc,CalcEQLWindowUvalue,0,for_loop,526,544,True,I = 1,I <= 10,++I,unknown
+WindowEquivalentLayer.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowEquivalentLayer.cc,ASHWAT_Thermal,2,for_loop,5168,5373,True,ITRY = 1,ITRY <= 100,++ITRY,unknown
+DisplacementVentMgr.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DisplacementVentMgr.cc,CalcUCSDDV,4,for_loop,807,900,True,Ctd = 1,Ctd <= 4,++Ctd,unknown
+DisplacementVentMgr.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DisplacementVentMgr.cc,CalcUCSDDV,5,for_loop,923,959,True,Ctd = 1,Ctd <= 3,++Ctd,unknown
+StandardRatings.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/StandardRatings.cc,DXCoolingCoilDataCenterStandardRatings,0,for_loop,1541,1561,True,ClassNum = 1,ClassNum <= 4,++ClassNum,unknown
+StandardRatings.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/StandardRatings.cc,DXCoolingCoilDataCenterStandardRatings,1,for_loop,1543,1560,True,TestNum = 1,TestNum <= 4,++TestNum,unknown
+StandardRatings.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/StandardRatings.cc,ReportDXCoolCoilDataCenterApplication,0,for_loop,2269,2284,True,ClassNum = 1,ClassNum <= 4,++ClassNum,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CFSShadeAndBeamInitialization,0,for_loop,826,873,True,int Hour = 1;,Hour <= 24,++Hour,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcWindowStaticProperties,28,for_loop,2288,2292,True,I = 1,I <= 24,++I,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcWindowStaticProperties,30,for_loop,2294,2298,True,I = 1,I <= 24,++I,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcWindowStaticProperties,34,for_loop,2311,2315,True,I = 1,I <= 24,++I,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcWindowStaticProperties,36,for_loop,2317,2321,True,I = 1,I <= 24,++I,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcComplexWindowThermal,3,for_loop,3518,3522,True,ICoeff = 1,ICoeff <= 3,++ICoeff,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcComplexWindowThermal,6,for_loop,3602,3606,True,i = 1,i <= 3,++i,unknown
+WindowComplexManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/WindowComplexManager.cc,CalcComplexWindowThermal,9,for_loop,3672,3674,True,k = 1,k <= 2 * nlayer,++k,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteMonthlyTables,4,for_loop,6584,6604,True,lMonth = 1,lMonth <= 12,++lMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteMonthlyTables,5,for_loop,6629,6639,True,lMonth = 1,lMonth <= 12,++lMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteMonthlyTables,6,for_loop,6684,6693,True,lMonth = 1,lMonth <= 12,++lMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteMonthlyTables,7,for_loop,6739,6763,True,lMonth = 1,lMonth <= 12,++lMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteTimeBinTables,3,for_loop,6935,6945,True,kHour = 1,kHour <= 24,++kHour,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteTimeBinTables,5,for_loop,6947,6958,True,kMonth = 1,kMonth <= 12,++kMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteTimeBinTables,8,for_loop,6962,6964,True,kMonth = 1,kMonth <= 12,++kMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteTimeBinTables,9,for_loop,6969,6972,True,kMonth = 1,kMonth <= 12,++kMonth,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,3,for_loop,7206,7214,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,8,for_loop,7247,7252,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,9,for_loop,7637,7654,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,10,for_loop,7698,7703,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,11,for_loop,7699,7701,True,jEndUse = 1,jEndUse <= 14,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,12,for_loop,7705,7713,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,13,for_loop,7707,7709,True,int jUse = 1;,jUse <= 14,++jUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,14,for_loop,7779,7787,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,15,for_loop,7830,7849,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,22,for_loop,7922,7940,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,25,for_loop,7963,7981,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,28,for_loop,7990,7998,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,29,for_loop,8000,8004,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,30,for_loop,8001,8003,True,jEndUse = 1,jEndUse <= 4,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,31,for_loop,8040,8044,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,32,for_loop,8041,8043,True,jEndUse = 1,jEndUse <= 4,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,33,for_loop,8057,8061,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteBEPSTable,34,for_loop,8058,8060,True,jEndUse = 1,jEndUse <= 4,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,1,for_loop,8493,8498,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,3,for_loop,8505,8522,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,4,for_loop,8568,8573,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,5,for_loop,8569,8571,True,jEndUse = 1,jEndUse <= 14,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,6,for_loop,8607,8612,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,7,for_loop,8608,8610,True,jEndUse = 1,jEndUse <= 14,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,8,for_loop,8627,8632,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteSourceEnergyEndUseSummary,9,for_loop,8628,8630,True,jEndUse = 1,jEndUse <= 14,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,6,for_loop,8871,8887,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,7,for_loop,8968,8974,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,8,for_loop,8969,8971,True,jEndUse = 1,jEndUse <= 14,++jEndUse,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,13,for_loop,9083,9096,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,16,for_loop,9106,9123,True,iResource = 1,iResource <= 6,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteDemandEndUseSummary,19,for_loop,9133,9151,True,iResource = 1,iResource <= 5,++iResource,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,WriteVeriSumTable,9,for_loop,10175,10189,True,iTotal = 1,iTotal <= 4,++iTotal,unknown
+OutputReportTabular.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/OutputReportTabular.cc,OutputCompLoadSummary,0,for_loop,12865,13110,True,int coolHeat = 1;,coolHeat <= 2,++coolHeat,unknown
+SystemAvailabilityManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SystemAvailabilityManager.cc,CalcOptStartSysAvailMgr,0,for_loop,2433,2441,True,I = 1,I <= 24,++I,unknown
+SystemAvailabilityManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SystemAvailabilityManager.cc,CalcOptStartSysAvailMgr,2,for_loop,2444,2452,True,I = 1,I <= 24,++I,unknown
+DaylightingDevices.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingDevices.cc,InitDaylightingDevices,2,for_loop,302,343,True,Loop = 1,Loop <= 2,++Loop,unknown
+DaylightingDevices.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingDevices.cc,CalcViewFactorToShelf,0,for_loop,1462,1466,True,VWin = 1,VWin <= 4,++VWin,unknown
+DaylightingDevices.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingDevices.cc,CalcViewFactorToShelf,1,for_loop,1463,1465,True,VShelf = 1,VShelf <= 4,++VShelf,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgAveInteriorReflectance,3,for_loop,369,377,True,IT = 1,IT <= 3,++IT,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoefficients,3,for_loop,622,634,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoefficients,10,for_loop,800,822,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoeffsRefPoints,4,for_loop,1116,1120,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoeffsRefPoints,5,for_loop,1148,1151,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoeffsMapPoints,6,for_loop,1377,1379,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcDayltgCoeffsMapPoints,7,for_loop,1403,1405,True,IHR = 1,IHR <= 24,++IHR,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcObstrMultiplier,1,for_loop,2961,2965,True,int ITheta = 1;,ITheta <= 2 * AzimSteps,++ITheta,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,CalcObstrMultiplier,3,for_loop,2981,3017,True,int ITheta = 1;,ITheta <= 2 * AzimSteps,++ITheta,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureDayltgCoeffsAtPointsForSunPosition,0,for_loop,3292,3299,True,ISky = 1,ISky <= 4,"++ISky, ++l2, ++l3",unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureDayltgCoeffsAtPointsForSunPosition,1,for_loop,3311,3321,True,ISky = 1,ISky <= 4,"++ISky, ++l3",unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureDayltgCoeffsAtPointsForSunPosition,2,for_loop,3351,3383,True,ISky = 1,ISky <= 4,"++ISky, ++l",unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureDayltgCoeffsAtPointsForSunPosition,13,for_loop,3721,3735,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureRefPointDayltgFactorsToAddIllums,0,for_loop,3802,3867,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,FigureMapPointDayltgFactorsToAddIllums,0,for_loop,3932,3997,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgExtHorizIllum,4,for_loop,5416,5418,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgExtHorizIllum,5,for_loop,5422,5424,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorIllum,3,for_loop,5911,5991,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorIllum,4,for_loop,5998,6001,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorIllum,5,for_loop,6009,6024,True,IS = 1,IS <= 2,++IS,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorIllum,15,for_loop,6199,6202,True,IS = 1,IS <= 2,++IS,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorTDDIllum,1,for_loop,6537,6551,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,3,for_loop,7131,7133,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,4,for_loop,7150,7154,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,6,for_loop,7221,7223,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,7,for_loop,7238,7256,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,8,for_loop,7266,7272,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,10,for_loop,7296,7307,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,12,for_loop,7437,7455,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,14,for_loop,7467,7479,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllum,15,for_loop,7486,7493,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,ComplexFenestrationLuminances,1,for_loop,7782,7784,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,ComplexFenestrationLuminances,2,for_loop,7788,7790,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,ComplexFenestrationLuminances,3,for_loop,7794,7798,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,ComplexFenestrationLuminances,5,for_loop,7822,7824,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,ComplexFenestrationLuminances,7,for_loop,7847,7849,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllumComplexFenestration,2,for_loop,7998,8000,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllumComplexFenestration,3,for_loop,8006,8010,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInterReflectedIllumComplexFenestration,4,for_loop,8021,8023,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgDirectIllumComplexFenestration,1,for_loop,8135,8137,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgDirectIllumComplexFenestration,2,for_loop,8145,8147,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgDirectIllumComplexFenestration,3,for_loop,8152,8155,True,iSky = 1,iSky <= 4,++iSky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorMapIllum,3,for_loop,8849,8944,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorMapIllum,4,for_loop,8951,8953,True,ISky = 1,ISky <= 4,++ISky,unknown
+DaylightingManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/DaylightingManager.cc,DayltgInteriorMapIllum,5,for_loop,8960,8969,True,IS = 1,IS <= 2,++IS,unknown
+CurveManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CurveManager.cc,GetCurveInputData,32,for_loop,2258,2274,True,TableDataIndex = 1,TableDataIndex <= 4,++TableDataIndex,unknown
+CurveManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CurveManager.cc,SetCommonIncidentAngles,1,for_loop,6461,6463,True,k = 1,k <= 10,k++,unknown
+CurveManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CurveManager.cc,SetCommonIncidentAngles,7,for_loop,6503,6534,True,TabOpt = 1,TabOpt <= 3,TabOpt++,unknown
+CurveManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CurveManager.cc,SetCommonIncidentAngles,14,for_loop,6540,6561,True,TabOpt = 1,TabOpt <= 3,TabOpt++,unknown
+CurveManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/CurveManager.cc,SetCommonIncidentAngles,19,for_loop,6567,6581,True,TabOpt = 1,TabOpt <= 3,TabOpt++,unknown
+SimulationManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimulationManager.cc,ManageSimulation,2,for_loop,551,610,True,HourOfDay = 1,HourOfDay <= 24,++HourOfDay,unknown
+SimulationManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimulationManager.cc,GetProjectData,4,for_loop,837,841,True,Num = 1,Num <= 12,++Num,unknown
+SimulationManager.cc,/Users/aussie/projects/2025/EnergyPlus/EnergyPlus-8.9.0/src/EnergyPlus/SimulationManager.cc,GetProjectData,7,for_loop,1083,1085,True,Num = 1,Num <= 6,++Num,unknown
